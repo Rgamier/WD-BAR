@@ -1,0 +1,142 @@
+/* General Body and Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 53rem;
+}
+
+.booking-section {
+    background-color: #141414;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.212);
+    width: 40rem;
+    max-width: 500rem;
+    text-align: center;
+}
+
+.logo {
+    width: 15rem;
+    margin-bottom: 1rem; 
+}
+
+.left-align {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+/* Steps Section */
+.step-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0rem;
+    margin-top: 1rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+.step {
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.step:hover {
+    color: rgb(255, 175, 175);
+}
+
+.step.selected {
+    color: #cc0707;
+    border-bottom: .13rem solid #cc0707;
+    transition: color 0.5s ease, text-decoration-color 0.5s ease; 
+}
+
+/* Dropdown Styles */
+.dropdowns-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.dropdown-button {
+    background-color: transparent;
+    color: white;
+    padding: .8rem 2rem;
+    font-size: .8rem;
+    border: 1px solid #ffffff;
+    border-radius: 0rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.dropdown-button:focus {
+    outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: .12rem 2rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.selected-option {
+    color: #cc0707;
+    border-bottom: 0.13rem solid #cc0707;
+}
+
+/* Find Table Button */
+.find-table-container {
+    margin-left: 0.5rem;
+}
+
+.find-table-button {
+    background-color: #cc0707;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.find-table-button:hover {
+    background-color: #d9534f;
+}

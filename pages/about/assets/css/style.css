@@ -1,0 +1,40 @@
+/* General Body and Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 53rem;
+}
+
+.booking-section {
+    background-color: #141414;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.212);
+    width: 40rem;
+    max-width: 500rem;
+    text-align: center;
+}
+
+.logo {
+    width: 15rem;
+    margin-bottom: 1rem; 
+}
+
+.left-align {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.h4s {
+    text-align: left;
+    font-weight: normal;
+}
