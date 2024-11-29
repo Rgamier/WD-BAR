@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOXIN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="bg-black text-white">
+    <header class="header">
+      <!--dropdown-->
+      <div class="header-content">
+        <button class="dropdown-btn" onclick="toggleMenu()">&#9776;</button>
+        <div id="dropdownMenu" class="dropdown-menu">
+          <a href="index.html">Home</a>
+          <a href="pages/about/index.html">About Our Bar</a>
+          <a href="pages/contact/index.html">Contacts</a>
+          <a href="pages/book/index.html">Book Now</a>
+      </div>
+      <!--logo-->
+      <a href="index.html" class="Logo">
+          <img src="assets/img/Logo.png" alt="Logo" class="h-12 w-auto">
+      </a>
+      <!--button-->
+        <button class="book-button">BOOK NOW</button>
+      </div>
+    </header>
+
+    <!--video-->
+    <video id="backgroundVideo" class="video-background" autoplay muted loop>
+      <source id="videoSource" src="assets/vid/Home.mov" type="video/mp4">
+    </video>
+
+  <div class="carousel-indicators">
+    <span class="indicator" onclick="changeVideo(0)"></span>
+    <span class="indicator" onclick="changeVideo(1)"></span>
+    <span class="indicator" onclick="changeVideo(2)"></span>
+    <span class="indicator" onclick="changeVideo(3)"></span>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
