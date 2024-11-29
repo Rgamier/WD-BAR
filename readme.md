@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  BAR
+  Welcome to Toxin Bar, the ultimate destination for an unforgettable dining experience. Easily book your table online and choose from our Standard and VIP seating options. Whether you're dining solo or with a group, our streamlined reservation system ensures a smooth and personalized experience. Join us for a night of delicious food, great company, and an atmosphere like no other!
 </div>
 
 <br />
