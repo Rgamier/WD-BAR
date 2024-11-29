@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short (Optional)
+  BAR
 </div>
 
 <br />
