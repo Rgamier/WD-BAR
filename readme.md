@@ -117,4 +117,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| TOXIN | Sample purpose would be here like this and this is the example of what it is. | https://handshake.bar/ |
+| TOXIN | 
+This bar website streamlines table reservations, letting users easily book standard or VIP tables for their desired dates and times. It reflects the bar's unique brand, providing a modern and convenient way to connect with customers. | https://handshake.bar/ |
