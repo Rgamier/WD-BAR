@@ -22,7 +22,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=Rgamier/WD-BAR)
+![Rgamier](https://visit-counter.vercel.app/counter.png?page=Rgamier/WD-BAR)
 
 ---
 
@@ -59,26 +59,24 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- Description of the project in details.
+This project is a responsive bar reservation website designed for seamless table bookings. It features dropdown menus for selecting guests, date, and time, with a confirmation pop-up. Built using HTML, CSS, and JavaScript, it combines structure, style, and interactivity to create a user-friendly experience.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multiwebsite, when you click the book now, a website will open in another tab
+- transition for the buttons and the video carousel
+- logo of the toxic will appear when you hover the button of the "book now"
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-A020F0?style=for-the-badge&logo=javascript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-ADD8E6?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +117,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| TOXIN | Sample purpose would be here like this and this is the example of what it is. | https://handshake.bar/ |
